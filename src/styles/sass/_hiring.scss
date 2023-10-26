@@ -1,0 +1,58 @@
+/************hiring css start***************/
+.hiring {
+  // position: relative;
+  // background-image: url(./../../images/hiring/bg.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  // width: 100%;
+  .hire_me_text {
+    h1 {
+      font-size: 42px;
+      color: #333333;
+      line-height: 16px;
+      margin-bottom: 26px;
+    }
+
+    p,
+    h5 {
+      font-size: 15px;
+      margin-bottom: 23px;
+      @media #{$small_mobile} {
+        margin-bottom: 10px;
+      }
+
+      @media #{$large_mobile} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$tab_device} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$medium_device} {
+      }
+    }
+    h5 {
+      color: #999999;
+    }
+
+    .btn_2 {
+      background-color: $btn_bg;
+      border-color: $btn_bg;
+      text-decoration: none;
+      color: $white_color;
+      text-transform: initial;
+      &:hover {
+        opacity: 80%;
+      }
+    }
+
+    .custom-hr {
+      width: 45px;
+      border: 3px solid $btn_bg;
+      margin: 0 auto;
+      opacity: 100%;
+    }
+  }
+}
